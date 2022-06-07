@@ -59,3 +59,7 @@ main {
 #label-rate {
   width: 100%;
 }
+
+.agreement-section {
+  display: flex;
+}
