@@ -7,4 +7,3 @@ function warnMessage() {
     alert('Email ou senha inválidos.');
   }
 }
-// warnMessage();
