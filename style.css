@@ -34,5 +34,13 @@
     display: flex;
     flex-direction: column;
     width: 675px;
+}
 
+.side-by-side-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side-by-side {
+    flex-basis: 45%;
 }
