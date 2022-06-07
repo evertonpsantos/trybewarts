@@ -7,3 +7,15 @@ function warnMessage() {
     alert('Email ou senha inválidos.');
   }
 }
+const checkbox = document.getElementById('agreement');
+const button = document.getElementById('submit-btn');
+
+function enableButton() {
+  if (checkbox.checked === true) {
+    button.disabled = false;
+  }
+}
+
+checkbox.addEventListener('click', () => {
+  enableButton();
+});
