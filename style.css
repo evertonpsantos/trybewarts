@@ -44,3 +44,11 @@
 .side-by-side {
   flex-basis: 45%;
 }
+
+#rate-section {
+  display: flex;
+}
+
+#label-rate {
+  width: 100%;
+}
