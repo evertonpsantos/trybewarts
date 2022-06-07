@@ -30,9 +30,27 @@
     display: flex;
 }
 
+main {
+display: flex;
+justify-content: space-evenly;
+
+}
+
+
 #evaluation-form {
     display: flex;
     flex-direction: column;
     width: 675px;
+    border: 1px dashed black;
+}
 
+#input-name #input-lastname {
+    flex-grow: 1;
+    width: 45%;
+    
+}
+
+#trybewarts-forms-logo {
+    justify-content: right;
+    border: 1px dashed black;
 }

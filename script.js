@@ -6,5 +6,4 @@ function warnMessage() {
   } else {
     alert('Email ou senha inválidos.');
   }
-
 }
