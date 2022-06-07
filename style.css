@@ -21,3 +21,14 @@
 .email .password {
     flex-direction: row;
 }
+
+.trybewarts-form {
+    display: flex;
+}
+
+#evaluation-form {
+    display: flex;
+    flex-direction: column;
+    width: 675px;
+
+}
