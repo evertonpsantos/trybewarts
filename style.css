@@ -31,30 +31,23 @@
 }
 
 main {
-display: flex;
-justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 
 }
 
 
 #evaluation-form {
-    display: flex;
-    flex-direction: column;
-    width: 675px;
-    border: 1px dashed black;
+  display: flex;
+  flex-direction: column;
+  width: 675px;
 }
 
-#input-name #input-lastname {
-    flex-grow: 1;
-    width: 45%;
-    
+.side-by-side-section {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-#trybewarts-forms-logo {
-    justify-content: right;
-    border: 1px dashed black;
-}
-
-.radio-list {
-    display: flex;
+.side-by-side {
+  flex-basis: 45%;
 }

@@ -33,35 +33,49 @@
 
     <main class="trybewarts-form">
         <form action="" id="evaluation-form">
-            <input id="input-name" type="text" placeholder="Nome">
-            <input id="input-lastname" type="text" placeholder="Sobrenome">
-            <input id="input-email" type="text" placeholder="Email">
+            <section class="side-by-side-section">
+                <input class="side-by-side" id="input-name" type="text" placeholder="Nome">
+                <input class="side-by-side" id="input-lastname" type="text" placeholder="Sobrenome">
+                <input class="side-by-side" id="input-email" type="text" placeholder="Email">
+                <select class="side-by-side" id="house" name="select">
+                    <option id="gitnoria-house" value="Gitnória" selected>Gitnória</option>
+                    <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+                    <option id="corvinode-house" value="Corvinode">Corvinode</option>
+                    <option id="pytherina-house" value="Pytherina">Pytherina</option>
+                </select>
+            </section>
 
-            <label for="">Casa:</label>
-            <select id="house" name="select">
-                <option id="gitnoria-house" value="Gitnória" selected>Gitnória</option>
-                <option id="reactpuff-house" value="Reactpuff" >Reactpuff</option>
-                <option id="corvinode-house" value="Corvinode">Corvinode</option>
-                <option id="pytherina-house" value="Pytherina">Pytherina</option>
-              </select>
+            <section class="radio-list">
+                <label id="label-family">Qual sua família?</label>
+                <div>
+                    <input type="radio" name="family" value="Frontend">Frontend
+                </div>
+                <div>
+                    <input type="radio" name="family" value="Backend">Backend
+                </div>
+                <div>
+                    <input type="radio" name="family" value="FullStack">FullStack
+                </div>
+            </section>
 
-              <div class="radio-list">
-              <label for="" id="label-family">Qual a sua família?</label>
-              <input type="radio" name="family" value="Frontend">Frontend
-              <input type="radio" name="family" value="Backend">Backend
-              <input type="radio" name="family" value="Fullstack">Fullstack
-            </div>
+            <section class="textarea">
+                <label for="comentario">Deixe seu comentário:</label>
+
+                <div>
+                    <textarea id="w3review" name="w3review" maxlength="500"></textarea>
+                </div>
+            </section>
 
 
         </form>
-       
+
         <img src="images/trybewarts-colored.svg" alt="Trybewarts Form Logo" id="trybewarts-forms-logo" height="500px">
     </main>
 
-<script src="./script.js"></script>
+    <script src="./script.js"></script>
 
+    <footer>Direitos Reservados à Trybewarts ©</footer>
 </body>
 
-<footer>Direitos Reservados à Trybewarts ©</footer>
 
 </html>
