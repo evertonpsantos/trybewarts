@@ -18,6 +18,10 @@
    display: flex;
 }
 
+.trybewarts-login {
+    display: flex;
+}
+
 .email .password {
     flex-direction: row;
 }

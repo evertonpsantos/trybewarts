@@ -18,14 +18,15 @@
 
             <h1 id="trybewarts-header-title">Trybewarts</h1>
 
-            <div class="trybewarts-login">
-                <form action=""></form>
-                <input class="email" type="name" placeholder="Email">
-                <input class="password" type="text" placeholder="Senha">
-                <button class="" type="submit">Entrar</button>
+            <div class="trybewarts-login-container">
+                <form class="trybewarts-login">
+                    <input class="email" type="email" name="email" placeholder="Email" value="tryber@teste.com">
+                    <input class="password" type="password" name="password" placeholder="Senha" maxlength="6" value="123456" >
+                    <button class="start-btn" onclick="warnMessage()">Entrar</button>
+                </form>
             </div>
 
-            
+
         </div>
 
     </header>
@@ -35,6 +36,8 @@
     </main>
 
 
+
+<script src="./script.js"></script>
 
 </body>
 
