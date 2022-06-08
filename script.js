@@ -3,6 +3,8 @@ const button = document.getElementById('submit-btn');
 const email = document.querySelector('.email');
 const password = document.querySelector('.password');
 const buttonLogIn = document.getElementById('start-btn');
+const textArea = document.getElementById('w3review');
+const counter = document.getElementById('counter');
 
 function warnMessage() {
   if (email.value === 'tryber@teste.com' && password.value === '123456') {
@@ -24,4 +26,13 @@ function enableButton() {
 
 checkbox.addEventListener('click', () => {
   enableButton();
+});
+
+function countCharacters() {
+  const textAreaValue = textArea.value.length;
+  counter.innerText = 500 - textAreaValue;
+}
+
+textArea.addEventListener('input', () => {
+  countCharacters();
 });
