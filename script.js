@@ -36,3 +36,5 @@ function countCharacters() {
 textArea.addEventListener('input', () => {
   countCharacters();
 });
+
+// requisito 20 ^
