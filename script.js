@@ -3,7 +3,7 @@ const button = document.getElementById('submit-btn');
 const email = document.querySelector('.email');
 const password = document.querySelector('.password');
 const buttonLogIn = document.getElementById('start-btn');
-const textArea = document.getElementById('w3review');
+const textArea = document.getElementById('textarea');
 const counter = document.getElementById('counter');
 
 function warnMessage() {
